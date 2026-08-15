@@ -320,6 +320,7 @@
     background-color: var(--background-title);
     width: clamp(341px, 24%, 353px);
     height: 191px;
+    overflow: hidden;
 }
 
 .floppy__dialog[open] {
