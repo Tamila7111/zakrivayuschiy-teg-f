@@ -365,7 +365,6 @@
     border: 1px solid var(--border-color);
     padding: 10px 20px;
     width: 100%;
-    border: var(--border);
 }
 
 @media (max-width: 768px) {
