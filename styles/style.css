@@ -131,8 +131,8 @@
     display: flex;
     gap: 9px;
     align-self: self-end;
-    padding-right: 25px;
     padding-bottom: 25px;
+    padding-right: 25px;
 }
 
 .card__icon-button {
