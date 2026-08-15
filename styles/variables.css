@@ -3,9 +3,9 @@
     --font-main: "Inter", sans-serif;
     --font-accent: "PressStart2P", monospace;
 
-    --weight-text: 410; /* основной текст карточки */
-    --weight-title: 715; /* заголовки карточек .card__title */
-    --weight-base: 400; /* базовый вес: .header__logo, текст кнопок  */
+    --weight-text: 410;
+    --weight-title: 715;
+    --weight-base: 400;
 
     --gradient: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
         repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
@@ -21,9 +21,9 @@
     --font-size-button: 14px;
     --text-stroke-color: #e7e7e7;
 
-    --text-base: #ffffff; /* Базовый цвет текста (белый) */
-    --accent-bg: #000000; /* Цвет псевдоэлемента (чёрный) */
-    --icon-color: #ffffff; /* Цвет иконки (белый, чтобы тоже инвертировался) */
+    --text-base: #ffffff;
+    --accent-bg: #000000;
+    --icon-color: #ffffff;
     --contour-color: #000000;
     --animation-fill-color: #ff0000;
 }
