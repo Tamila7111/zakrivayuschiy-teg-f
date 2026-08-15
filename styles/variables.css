@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-main: "Inter", sans-serif;
+    --font-accent: "PressStart2P", monospace;
+
+    --weight-text: 410; /* основной текст карточки */
+    --weight-title: 715; /* заголовки карточек .card__title */
+    --weight-base: 400; /* базовый вес: .header__logo, текст кнопок  */
+
+    --gradient: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+
+    --border: 2px solid #000000;
+    --border-color: #000000;
+    --background-title: white;
+
+    --width: clamp(375px, calc(375px + (100vw - 375px) * 0.307), 700px);
+
+    --font-size-card: 18px;
+    --font-size-button: 14px;
+    --text-stroke-color: #e7e7e7;
+
+    --text-base: #ffffff; /* Базовый цвет текста (белый) */
+    --accent-bg: #000000; /* Цвет псевдоэлемента (чёрный) */
+    --icon-color: #ffffff; /* Цвет иконки (белый, чтобы тоже инвертировался) */
+    --contour-color: #000000;
+    --animation-fill-color: #ff0000;
+}
