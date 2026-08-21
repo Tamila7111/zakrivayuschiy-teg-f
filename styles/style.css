@@ -302,7 +302,6 @@
     width: clamp(306px, calc(306px + (100vw - 375px) * 0.081), 335px);
     padding: 23px 14px;
     border: var(--border);
-    background-color: var(--background-title);
 }
 
 .floppy {
